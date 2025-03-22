@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Out Factory Landing Page</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    section {
+      padding: 80px 20px;
+    }
+    h1, h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    p, li, blockquote {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li::before {
+      content: "✔️ ";
+      margin-right: 10px;
+    }
+    button {
+      padding: 12px 24px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #444;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    footer {
+      background-color: #111;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<section id="hero" style="text-align: center; background: #fafafa;" data-aos="fade-up">
+  <h1>Unthink the Ordinary. Think Round.</h1>
+  <p>Launch a yurt in 72 hours. Beat the weather, the terrain — and the usual.</p>
+  <button>Download The Book of Un</button>
+</section>
+
+<!-- SOCIAL PROOF / STATS -->
+<section id="proof" style="background-color: #f0f0f0;" data-aos="fade-up">
+  <h2>200+ Yurts Across India</h2>
+  <p>In jungles, on beaches, in cities and on farms — our yurts have made magic happen.</p>
+  <div>
+    <p>🏔 Installed in Cherrapunji, Meghalaya – the wettest place on earth</p>
+    <p>🏖 Installed in Mahabalipuram – salt, heat, humidity? No problem</p>
+    <p>🌳 Installed in Nagarahole forests – termite-safe, luxury-ready</p>
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section id="benefits" data-aos="fade-up">
+  <h2>Why a TOF Yurt?</h2>
+  <ul>
+    <li>Installs in 72 hours</li>
+    <li>Handles rain, snow, heat & termites</li>
+    <li>Works in eco-zones, CRZ areas, forests & rooftops</li>
+    <li>36 colours. 1300+ combinations. Infinite cool.</li>
+    <li>Custom layouts, sizes, finishes</li>
+  </ul>
+</section>
+
+<!-- FORM SECTION -->
+<section id="form" style="background-color: #e0e0e0;" data-aos="fade-up">
+  <h2>Tell us what you’re thinking</h2>
+  <p>We’ll get back with a solution that’s beautifully round.</p>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="What are you exploring a yurt for?"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<!-- CUSTOMER STORIES -->
+<section id="stories" data-aos="fade-up">
+  <h2>Built for the Bold</h2>
+  <p>What our customers say:</p>
+  <blockquote>"I had always wanted to create a space beyond concrete. TOF yurts were exactly that dream — built in just days!" – Ganesh, Machaan Wilderness Lodge</blockquote>
+  <blockquote>"We now have a spa that’s a yurt. And a weekend home that’s two yurts stitched together. It’s brilliant." – Prashant, Discovery Village</blockquote>
+</section>
+
+<!-- COMPARISON SECTION -->
+<section id="compare" style="background-color: #f0f0f0;" data-aos="fade-up">
+  <h2>Yurt vs Conventional Construction</h2>
+  <ul>
+    <li>3-day install vs 12-month build</li>
+    <li>Zero disturbance vs heavy construction mess</li>
+    <li>Flat-packed, global shipping vs site headaches</li>
+  </ul>
+  <button>Get Pricing</button>
+</section>
+
+<!-- FOOTER -->
+<footer data-aos="fade-up">
+  <p>Still un-decided?</p>
+  <p>Let’s talk yurts. Or weather. Or wood. Or wanderlust.</p>
+  <button>Schedule a Call</button>
+  <p>© The Out Factory | Bangalore, India | un@theoutfactory.com</p>
+</footer>
+
+<!-- AOS Animations -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    easing: 'ease-in-out',
+    once: true
+  });
+</script>
+
+</body>
+</html>
